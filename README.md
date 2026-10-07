@@ -24,13 +24,3 @@ Qdrant vector database.
 - GET /create-collection: creates the Qdrant collection
 - POST /upload: runs the full RAG pipeline and returns the answer
 
-## Credits and disclosure
-This project follows the tutorial "Build a Real AI App using Node.js + LLM + RAG"
-by Prince Kumar (Hello World by Prince). The code in this repo was generated with
-LLM assistance based on that tutorial. I am rebuilding and extending it myself to
-learn the internals.
-
-## Limitations / next steps
-- Retrieves only the top 1 chunk (configurable via TOP_K)
-- Re-uploading the same PDF creates duplicate vectors
-- Planned: multi-chunk retrieval, better chunking, chat history
